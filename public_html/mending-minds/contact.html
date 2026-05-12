@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Guided Meditation | Mending Minds Counseling and Consultation LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A guided meditation video to help you relax, breathe, and find a moment of calm.">
+
+  <link rel="icon" type="image/png" href="pictures/logo.png">
+  <link rel="apple-touch-icon" href="pictures/logo.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    document.documentElement.className += ' js';
+  </script>
+</head>
+<body>
+
+  <nav>
+    <a class="logo" href="index.html">
+      <div class="logo-box">
+        <img src="pictures/logo.png" alt="Mending Minds Logo">
+      </div>
+      <span class="logo-text">Mending Minds Counseling and Consultation LLC</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#who">Who We Help</a></li>
+      <li><a href="meditation.html" class="active">Meditation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav-drawer">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="nav-drawer" id="nav-drawer" aria-hidden="true">
+    <a href="index.html#about">About</a>
+    <a href="index.html#services">Services</a>
+    <a href="index.html#who">Who We Help</a>
+    <a href="meditation.html">Meditation</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="page-header">
+    <h1>Guided Meditation</h1>
+    <p>Take a moment for yourself. This short meditation is designed to help you relax, breathe, and find a moment of calm.</p>
+  </div>
+
+  <div class="video-wrap">
+    <video controls poster="pictures/meditation-thumbnail.png">
+      <source src="videos/meditation.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <p class="credit">
+      Video credit: <a href="https://www.youtube.com/@calm" target="_blank" rel="noopener noreferrer">Calm — YouTube</a>
+    </p>
+  </div>
+
+  <div class="back-wrap">
+    <a class="btn-outline" href="index.html">← Back to Home</a>
+  </div>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo-box">
+          <img src="pictures/logo.png" alt="Mending Minds Logo">
+        </div>
+        <p>Compassionate therapy and coaching for young adults and families.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#who">Who We Help</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li>Crisis Support: 988 (Suicide &amp; Crisis Lifeline)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Mending Minds Counseling and Consultation LLC. All rights reserved.</p>
+      <p>Professional therapy services. Not for emergency situations. In case of emergency, call 911.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.min.js" async></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
